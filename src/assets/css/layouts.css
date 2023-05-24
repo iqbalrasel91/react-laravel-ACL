@@ -1,0 +1,82 @@
+body{
+    margin: 0 auto;
+}
+
+.logo {
+    float: right;
+    width: 148px;
+    height: 31px;
+    margin: 16px 7px;
+    /*background: rgba(255, 255, 255, 0.3);*/
+}
+
+.ant-row-rtl .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+    background: #fff;
+}
+
+.ant-menu-item .ant-menu-item-selected {
+    border-bottom: 1px solid #ddd;
+}
+
+.ant-menu-submenu-title {
+    border-bottom: 1px solid #ddd;
+}
+
+.ant-menu-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.ant-layout-sider {
+    position: relative;
+    min-width: 0;
+    background: #fff !important;
+    transition: all .2s;
+}
+
+.ant-form-item {
+    box-sizing: border-box;
+    padding: 0;
+    color: rgba(0, 0, 0, .85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum";
+    margin: 0 0 12px !important;
+    vertical-align: top;
+}
+
+.ant-layout-header {
+    height: 64px;
+    padding: 0 15px !important;
+    color: rgba(0, 0, 0, .85);
+    line-height: 64px;
+    background: #256bad !important
+}
+
+.button-secondary {
+    background: #3f51b5 !important;
+    border-color: #3f51b5 !important;
+    color: #fff !important;
+}
+
+.button-success {
+    background: #05beac !important;
+    border-color: #05beac !important;
+    color: #fff !important;
+}
+
+.button-tracking {
+    background: orange !important;
+    border-color: orange !important;
+    color: #fff !important;
+}
+
+input[readonly] {
+    background-color: #f6f6f6;
+}
